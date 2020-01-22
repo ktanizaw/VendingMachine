@@ -1,6 +1,7 @@
 # VendingMachine
 # How to use
 
+````
 $ irb
 \> require './VendingMachine3.rb'
 \> vm = VendingMachine.new
@@ -24,3 +25,4 @@ $ irb
 \> vm.buy_drink(Drink.cola) =>colaを購入できません。
 \> vm.current_stock =>  {"cola"=>4, "redbull"=>4, "water"=>4}
 \> exit
+````
